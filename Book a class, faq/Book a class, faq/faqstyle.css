@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #2c96dd;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info span {
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+.login-btn {
+    background-color: #1349df;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #2d9bda;
+}
+
+main {
+    padding: 20px 0;
+}
+
+h2 {
+    color: #0077be;
+    text-align: center;
+    font-size: 28px;
+}
+
+h3 {
+    color: #0077be;
+    text-align: center;
+    font-size: 18px;
+}
+
+.faq-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.faq-content h3 {
+    color: #333;
+    font-size: 20px;
+}
+
+.faq-tabs {
+    margin-bottom: 20px;
+}
+
+.tab {
+    background-color: transparent;
+    border: none;
+    color: #0077be;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.tab.active {
+    border-bottom: 2px solid #0077be;
+}
+
+.faq-item h4 {
+    color: #0077be;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.faq-item p {
+    margin-top: 0;
+    color: #666;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #faf7f2;
+    padding: 20px 0;
+    border-top: 1px solid #e0c097;
+}
+
+.social-links a {
+    margin-right: 10px;
+    color: #0077be;
+    text-decoration: none;
+    font-size: 14px;
+}
